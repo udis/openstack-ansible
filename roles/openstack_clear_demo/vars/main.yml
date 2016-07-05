@@ -1,0 +1,7 @@
+---
+
+### Security group vars
+security_group_name: demo_sec_group
+
+
+instance_name: demo_instance

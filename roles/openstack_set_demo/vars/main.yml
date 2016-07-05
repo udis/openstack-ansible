@@ -1,0 +1,29 @@
+---
+
+### Network vars
+allocation_pool_start: 10.10.10.10
+allocation_pool_end: 10.10.10.50
+cidr: 10.10.10.0/24
+dns_nameservers: 10.35.28.28
+
+### Security group vars
+security_group_name: demo_sec_group
+
+### Floating IPs
+floating_ip_network: public
+
+### Instance vars
+instance_name: demo_instance
+instance_user: cirros
+ssh_keypair: <set the path to your public ssh key>
+instance_image: cirros 
+instance_flavor: m1.tiny
+
+### Image Vars ###
+image_filename: /root/cirros-0.3.0-x86_64-disk.img
+
+image_url:
+  - "https://launchpad.net/cirros/trunk/0.3.0/+download/cirros-0.3.0-x86_64-disk.img"
+  - "http://mirror.isoc.org.il/pub/fedora/releases/22/Cloud/x86_64/Images/Fedora-Cloud-Base-22-20150521.x86_64.qcow2"
+
+url_image_path: /tmp
