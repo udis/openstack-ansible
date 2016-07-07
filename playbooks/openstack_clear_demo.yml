@@ -1,9 +1,0 @@
----
-
-- name: Openstack clear demo
-  tags: openstack_clear_demo
-  hosts: localhost
-  connection: local
-  roles:
-    - openstack_clear_demo
-
